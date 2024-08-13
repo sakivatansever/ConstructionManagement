@@ -3,6 +3,7 @@
 Merhaba  projeyi açın migrataion klasörünü silip sırası ile PackageManagerConsole  add-migration name   yazıktan sonra enter tuşuna basmadan doğru katmanda bu işlemi yaptığınızı kontrol edin (ConstructionManagement.Infrastructure) seçiniz .
 Migration eklendikten sonra update-database diyerek veritabanında güncellemeleri görebilirisiniz. 
 
+
 Proje detayları 
 
 
@@ -16,3 +17,7 @@ Merkezi Varlıklarımızın bulunduğu bölüm
 4)ConstructionManagement.API
 bu bölüm de ise RestFull api yer almaktadır. 
 İlgili DI yönetimi ve akışı görüntülmek için program.cs klasörüne bakınız
+
+
+
+Not Mvc projeyi ayağa kaldırdığınızda  port numarasını bu projede  program.cs içerisinde cors politikasına belirtiniz. 
